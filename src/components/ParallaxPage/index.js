@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
 import Contact from '../Contact';
-import About from '../About';
 import Home from '../Home';
 import Listen from '../Listen';
 import Schedule from '../Schedule';

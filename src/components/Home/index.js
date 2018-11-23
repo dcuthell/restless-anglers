@@ -1,9 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 
-import FBEmbedFrame from '../FBEmbedFrame';
-
-
 export default function Home (props) {
   return (
     <Container className="Home">
