@@ -52,28 +52,19 @@ class NavigationBar extends Component {
           <span className="navbar-toggler-icon" id="toggleIcon"/>
         </NavbarToggler>
         <Collapse isOpen={this.state.isOpen} navbar>
-          <Nav className="mr-auto nav-options" navbar>
+          <Nav className="ml-auto nav-options" navbar>
             <NavItem>
-							<NavLink href={"#Menu"} onClick={this.closeNav}>Menu
-							</NavLink>
+							<NavLink href={"#About"} onClick={this.closeNav}>About</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href={"#About"} onClick={this.closeNav}>About</NavLink>
+							<NavLink href={"#Listen"} onClick={this.closeNav}>Listen</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href={"#Contact"} onClick={this.closeNav}>Contact</NavLink>
 						</NavItem>
-          </Nav>
-          <Nav className="justify-content-center">
-						<NavItem>
-							<NavLink href="https://www.facebook.com/thunderbirdbarpdx/" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-facebook-square desktop-only"></span></NavLink>
-						</NavItem>
-						<NavItem>
-							<NavLink href="https://www.yelp.com/biz/thunderbird-portland" target="_blank" rel="noreferrer noopener"><span className="footer-icon icon fa fa-yelp desktop-only"></span></NavLink>
-						</NavItem>
             <NavItem>
-							<NavLink href="https://www.instagram.com/thunderbirdpdx/?hl=en" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-instagram desktop-only"></span></NavLink>
-						</NavItem>
+              <NavLink href="https://soundcloud.com/restlessanglers" target="_blank" rel="noopener noreferrer"><span className="footer-icon icon fa fa-soundcloud desktop-only"></span></NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

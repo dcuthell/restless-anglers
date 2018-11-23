@@ -77,23 +77,23 @@
 }
 
 .bgimg1 {
-	background-image: url('../../img/barart.jpg');
+	background-image: url('../../img/boat.jpg');
 	background-color: rgb(48, 48, 48);
 	height: 80vh;
 }
 
 .bgimg2 {
-	background-image: url('../../img/barinterior.jpg');
+	background-image: url('../../img/albumfront.png');
 	background-color: rgb(130, 130, 130);
 }
 
 .bgimg3 {
-	background-image: url('../../img/barseating.jpg');
+	background-image: url('../../img/albumback.png');
 	background-color: rgb(48, 48, 48);
 }
 
 .bgimg4 {
-	background-image: url('../../img/barlogo.jpg');
+	background-image: url('../../img/boat.jpg');
 	background-color: rgb(130, 130, 130);
 }
 

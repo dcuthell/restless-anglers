@@ -4,16 +4,16 @@ import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
 import './App.css';
 
-import Logo from './img/newbarlogo.jpg'
+import Logo from './img/reallogo.jpg'
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavigationBar background="black" text="#e3d83b" hovercolor="#fffdde" logo={Logo}/>
-        <ParallaxPage background="black" text="#e3d83b" hovercolor="#fffdde" />
-        <Footer background="black" text="#e3d83b" hovercolor="#fffdde"/>
+        <NavigationBar background="#0C2F19" text="#F9F871" hovercolor="#56D9DB" logo={Logo}/>
+        <ParallaxPage background="#0C2F19" text="#F9F871" hovercolor="#56D9DB" />
+        <Footer background="#0C2F19" text="#F9F871" hovercolor="#56D9DB"/>
       </div>
     );
   }
