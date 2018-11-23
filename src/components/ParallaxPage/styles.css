@@ -1,6 +1,6 @@
 /* Standard ParallaxPage Styling  */
 .ParallaxPage{
-	height: 80vh;
+	height: 84vh;
 	overflow: scroll;
 	margin: auto;
 }
@@ -85,12 +85,13 @@
 .bgimg2 {
 	background-image: url('../../img/albumfront.png');
 	background-color: rgb(130, 130, 130);
+	background-position: top;
 }
 
 .bgimg3 {
 	background-image: url('../../img/albumback.png');
 	background-color: rgb(48, 48, 48);
-	padding-bottom: 20vh;
+	background-position: top;
 }
 
 .bgimg4 {

@@ -3,16 +3,13 @@
 	height: 100%;
 	font-family: "Raleway";
 	font-size: 3vh;
-	min-height: 14vh;
+	min-height: 6vh;
 }
 
 #logo {
-	height: 10vh;
-
-	margin-top: 1vh;
+	height: 6vh;
   margin-right: 2vw;
   margin-left: 2vw;
-  margin-bottom: 1vh;
 }
 
 /* Bootstrap overrides */
