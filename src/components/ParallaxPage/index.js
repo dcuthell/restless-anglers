@@ -3,7 +3,7 @@ import './styles.css';
 import Contact from '../Contact';
 import About from '../About';
 import Home from '../Home';
-import Menu from '../Menu';
+import Listen from '../Listen';
 
 class ParallaxPage extends Component {
   render(){
@@ -20,19 +20,19 @@ class ParallaxPage extends Component {
         </style>
         <div className="bgimg1" id="Home">
           <div className="captionline">
-            <span className="captionbox">Thunderbird Bar PDX</span>
+            <span className="captionbox">The Restless Anglers</span>
           </div>
         </div>
         <div className="textbox">
           <Home/>
         </div>
-        <div className="bgimg3" backgroundColor="rgb(0, 0, 0)" id="Menu">
+        <div className="bgimg3" backgroundColor="rgb(0, 0, 0)" id="Listen">
           <div className="captionline">
-            <span className="captionbox">Menu</span>
+            <span className="captionbox">Listen</span>
           </div>
         </div>
         <div className="textbox">
-          <Menu/>
+          <Listen/>
         </div>
         <div className="bgimg2" id="About">
           <div className="captionline">
