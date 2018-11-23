@@ -4,6 +4,7 @@ import Contact from '../Contact';
 import About from '../About';
 import Home from '../Home';
 import Listen from '../Listen';
+import Schedule from '../Schedule';
 
 class ParallaxPage extends Component {
   render(){
@@ -34,13 +35,13 @@ class ParallaxPage extends Component {
         <div className="textbox">
           <Listen/>
         </div>
-        <div className="bgimg2" id="About">
+        <div className="bgimg2" id="Schedule">
           <div className="captionline">
-            <span className="captionbox">About</span>
+            <span className="captionbox">Schedule</span>
           </div>
         </div>
         <div className="textbox">
-          <About/>
+          <Schedule/>
         </div>
         <div className="bgimg4" backgroundColor="rgb(270, 270, 270)" id="Contact">
           <div className="captionline">

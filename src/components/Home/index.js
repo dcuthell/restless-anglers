@@ -9,9 +9,9 @@ export default function Home (props) {
     <Container className="Home">
       <Row>
         <Col>
-          <h1><span role="img" aria-label="thunderbolt">&#x26A1;</span> Thunderbird <span role="img" aria-label="thunderbolt">&#x26A1;</span></h1>
-          <h4>is the latest from the Lightning Bar Collective</h4>
-          <h3>Open 4pm-2am every day of the week</h3>
+          <h1>We're the Restless Anglers</h1>
+          <h4>we play good tunes</h4>
+          <h3>for good vibes and good times</h3>
         </Col>
       </Row>
     </Container>

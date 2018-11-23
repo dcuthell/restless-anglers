@@ -90,6 +90,7 @@
 .bgimg3 {
 	background-image: url('../../img/albumback.png');
 	background-color: rgb(48, 48, 48);
+	padding-bottom: 20vh;
 }
 
 .bgimg4 {
